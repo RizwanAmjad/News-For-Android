@@ -13,7 +13,7 @@ class ResponseToModel {
                 newsData.add(News(current.getString("author"),
                     current.getString("title"),
                     current.getString("description"),
-                    current.getString("url")
+                    current.getString("urlToImage")
                 ))
             }
             return newsData
